@@ -1,0 +1,31 @@
+{
+  "name": "bookreviewblog",
+  "version": "1.0.0",
+  "description": "Book review blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Developer-of-Stuff/BookReviewBlog.git"
+  },
+  "keywords": [
+    "books",
+    "review",
+    "blog"
+  ],
+  "author": "Alex G.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Developer-of-Stuff/BookReviewBlog/issues"
+  },
+  "homepage": "https://github.com/Developer-of-Stuff/BookReviewBlog#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
