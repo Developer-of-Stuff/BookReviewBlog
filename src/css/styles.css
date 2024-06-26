@@ -1,0 +1,8 @@
+#review-add {
+    width: 600px;
+}
+
+#review-add * {
+    width: 100%;
+    margin-bottom: 10px;
+}

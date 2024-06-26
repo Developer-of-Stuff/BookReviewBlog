@@ -3,10 +3,14 @@ const path = require('path')
 const app = express()
 const port = 3000
 
-// here's a comment
+app.use(express.static('src'));
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '/index.html'));
+})
+
+app.post('/', (req, res) => {
+    console.log(req);
 })
 
 app.get('/about', (req, res) => {
